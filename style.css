@@ -1,0 +1,41 @@
+.theme-light {
+
+    --text-color: rgb(19,17,17);
+    --bg-color: rgb(228,213,213);
+    --primary-text: rgb(164,192,230);
+    --primary-bg: hsl(216,91%,35%);
+    --secondary-text: hsl(288,87%,85%);
+    --secondary-bg: hsl(290,84%,22%);
+
+}
+
+.theme-dark {
+
+    --text-color: rgb(242,233,233);
+    --bg-color: rgb(24,22,22);
+    --primary-text: rgb(166,46%,65%);
+    --primary-bg: hsl(166, 46%, 65%);
+    --secondary-text: hsl(289, 18%, 12%);
+    --secondary-bg: hsl(290,21%,22%);
+
+}
+
+.body {
+
+    font-family: sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+
+}
+
+.btn {
+    padding: 1em;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary{
+    color: var(--secondary-text);
+    background-color: var(--secondary-bg);
+}
